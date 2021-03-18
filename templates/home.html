@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block title %}
+Home
+{% endblock title %}
+{% block body %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="column">
+            <img src="{{ url_for('static', filename='dscf0005.jpg') }}" id="i1" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0012.jpg') }}" id="i2" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0017.jpg') }}" id="i3" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0021.jpg') }}" id="i5" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0022.jpg') }}" id="i5" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0048.jpg') }}" id="i5" onclick="window.open(this.src)"/>
+        </div>
+        <div class="column">
+            <img src="{{ url_for('static', filename='dscf0104.jpg') }}" id="i6" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0109.jpg') }}" id="i7" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0126.jpg') }}" id="i8" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0150.jpg') }}" id="i9" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0171.jpg') }}" id="i9" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0182.jpg') }}" id="i11" onclick="window.open(this.src)"/>
+            
+        </div>
+        <div class="column">
+            <img src="{{ url_for('static', filename='dscf0183.jpg') }}" id="i13" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0191.jpg') }}" id="i10" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0221.jpg') }}" id="i14" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0230.jpg') }}" id="i14" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0251.jpg') }}" id="i14" onclick="window.open(this.src)"/>
+            <img src="{{ url_for('static', filename='dscf0262.jpg') }}" id="i14" onclick="window.open(this.src)"/>
+        </div>
+    </div>
+</div>
+{% endblock body %}

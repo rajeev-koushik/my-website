@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %}
+About
+{% endblock title %}
+{% block body %}
+<font style="color: #faefb1;">
+    <h1>
+        <center> Welcome to my website! </center>
+    </h1>
+    <center><img src="{{ url_for('static', filename='about.JPG') }}" width="300px" height="300px"></center>
+    This is my very first attempt at making a personalized end-to-end project, and I thought what better way to go about
+    it than building a website to showcase my photography. Enjoy and please do keep checking back for more updates.
+</font>
+{% endblock body %}
